@@ -46,7 +46,7 @@ fn process_csv(input_path: &str, output_path: &str) -> Result<(), Box<dyn Error>
 
                 match i {
                     3 => normalize_numbers(trimmed),         // Phone number
-                    5 => normalize_numbers(trimmed),         // SSN
+                    5 => normalize_numbers(trimmed),         // 
                     17 => normalize_numbers(trimmed),        // Postal code
                     18 => normalize_numbers(trimmed),        // Monthly rent
                     19 => normalize_numbers(trimmed),        // Outstanding balance
